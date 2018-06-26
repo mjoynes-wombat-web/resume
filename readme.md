@@ -1,16 +1,15 @@
-<div style="text-align: right;">
-<h2>Simeon Smith</h2>
+
+# Who Am I?
+
+## Simeon Smith
+
+### Problem Solver, Graphic Designer, & Web Developer
 
 2611 E. Mission\
 Spokane, WA 99202\
 ssmith@wombatweb.us\
-207.619.1880 cell\
-509.280.6173 home
-</div>
-
-# Who Am I?
-
-### Problem Solver, Graphic Designer, & Web Developer
+207.619.1880 (cell)\
+509.280.6173 (home)
 
 I am a web developer, graphic designer, and avid problem solver. I have worked in a range of jobs and believe I can better myself in any situation.\
 I love clear and concise designs. Finding information should be simple. Visuals should enhance messages and guide users to the content they seek.\
