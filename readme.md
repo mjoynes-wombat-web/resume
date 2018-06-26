@@ -96,7 +96,7 @@ Please [check out my work](https://www.simeonsmith.me/my-work) and feel free to 
 * Heroku
 * Vagrant
 
-### Font End Frameworks
+### Front End Frameworks
 
 * Angular 1
 * Bootstrap
