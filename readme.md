@@ -1,21 +1,20 @@
-## Simeon Smith
+<div style="text-align: right;">
+<h2>Simeon Smith</h2>
 
 2611 E. Mission\
 Spokane, WA 99202\
 ssmith@wombatweb.us\
 207.619.1880 cell\
-509.280.6173 home\
+509.280.6173 home
+</div>
 
 # Who Am I?
 
 ### Problem Solver, Graphic Designer, & Web Developer
 
-I am a web developer, graphic designer, and avid problem solver. I have worked in a range of jobs and believe I can better myself in any situation.
-
-I love clear and concise designs. Finding information should be simple. Visuals should enhance messages and guide users to the content they seek.
-
-People are complex and surprising. Putting them in boxes does everyone a disservice. Viewing individuals complexly helps me come up with unique and effective solutions for each challenge.
-
+I am a web developer, graphic designer, and avid problem solver. I have worked in a range of jobs and believe I can better myself in any situation.\
+I love clear and concise designs. Finding information should be simple. Visuals should enhance messages and guide users to the content they seek.\
+People are complex and surprising. Putting them in boxes does everyone a disservice. Viewing individuals complexly helps me come up with unique and effective solutions for each challenge.\
 Please [check out my work](https://www.simeonsmith.me/my-work) and feel free to [contact me](https://www.simeonsmith.me/make-contact/) with any questions.
 
 # Experience Overview
@@ -172,32 +171,32 @@ Please [check out my work](https://www.simeonsmith.me/my-work) and feel free to 
 
 # Employment History
 
-### K-l Mfg. Co.
+## K-l Mfg. Co.
 
-#### Graphic Designer
+### Graphic Designer
 
-Aug. 2015 - Current\
-Aug. 2013 - Sept. 2014
+#### Aug. 2015 - Current
+#### Aug. 2013 - Sept. 2014
 
 Spokane, WA
 
 Design, layout, and print of custom athletic sports apparel for companies like Nike, Castelli, and Terry
 
-### Wombat Web Design
+## Wombat Web Design
 
-#### Web Design / Owner
+### Web Design / Owner
 
-Sept. 2014 - Current
+#### Sept. 2014 - Current
 
 Ellensburg, WA
 
 Freelance work producing websites for clients.
 
-### Purrfect Logos
+## Purrfect Logos
 
-#### General Manager
+### General Manager
 
-Sept. 2012 - Aug. 2013
+#### Sept. 2012 - Aug. 2013
 
 Spokane Valley, WA
 
@@ -205,37 +204,37 @@ Managed the embroidery, screen printing and sign manufacturing. Responsible for 
 
 #### Design / Production Specialist
 
-May 2011 - Sept. 2012
+#### May 2011 - Sept. 2012
 
 Spokane Valley, WA
 
 Designed graphics for signs, vinyl and screen printing. Assisted with production, customer service and sales.
 
-### AlumniClass.com & Spirit School Apparel
+## AlumniClass.com & Spirit School Apparel
 
-#### Production Specialist
+### Production Specialist
 
-Oct. 2011 - Sept. 2012
+#### Oct. 2011 - Sept. 2012
 
 Spokane, WA
 
 Produced custom garments for school and alumni memorabilia.
 
-### Coldwell Banker Northwest Group
+## Coldwell Banker Northwest Group
 
-#### Marketing Director
+### Marketing Director
 
-Apr. 2011 - Oct. 2011
+#### Apr. 2011 - Oct. 2011
 
 Spokane, WA
 
 Designed and produced marketing materials for the company and individual realtors.
 
-### PrintWorks
+## PrintWorks
 
-#### Graphic Design Intern
+### Graphic Design Intern
 
-Apr. 2008 - Aug. 2010
+#### Apr. 2008 - Aug. 2010
 
 Homer, AK
 
@@ -243,21 +242,21 @@ Designed and produced print, sign and digital material.
 
 # Education
 
-### Interior Distance Education of Alaska (IDEA)
+## Interior Distance Education of Alaska (IDEA)
 
-#### High School Diploma
+### High School Diploma
 
-2003-2007
+#### 2003-2007
 
-### Full Sail University
+## Full Sail University
 
-#### Web Design & Development Bachelors of Science
+### Web Design & Development Bachelors of Science
 
-2014 - 2017
+#### 2014 - 2017
 
 Graduated Valedictorian with a 3.93 GPA.
 
-### Continuing Personal Education in:
+## Continuing Personal Education in:
 
 * Adobe CC
   * Illustrator
