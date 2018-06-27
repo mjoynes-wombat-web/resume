@@ -1,5 +1,6 @@
 
 import Styled from 'styled-components';
+import Link from 'gatsby-link';
 
 export const H1 = Styled.h1`
 font-size: 4rem;
@@ -31,4 +32,9 @@ margin: -1rem 0 1.25rem 0;
 export const P = Styled.p`
 font-size: 1rem;
 margin: 0.5rem 0;
+`;
+
+export const ExternalLink = Styled.a`
+font-size: 1rem;
+color: red;
 `;

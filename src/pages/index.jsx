@@ -1,8 +1,7 @@
 import React from 'react';
-import Link from 'gatsby-link';
 
 import {
-  H1, SubH1, H2, H3, H4, P,
+  H1, SubH1, H2, H3, H4, P, ExternalLink,
 } from '../components/textElements';
 
 const IndexPage = () => (
@@ -49,6 +48,9 @@ const IndexPage = () => (
     <P>
         Body text.
     </P>
+    <ExternalLink href="https://www.simeonsmith.me/">
+        This is a test.
+    </ExternalLink>
   </div>
 );
 
