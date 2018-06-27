@@ -21,6 +21,13 @@ const Layout = ({ children, data }) => (
 
 Layout.propTypes = {
   children: PropTypes.func.isRequired,
+  data: PropTypes.shape({
+    site: PropTypes.shape({
+      siteMetadata: PropTypes.shape({
+        title: PropTypes.string,
+      }),
+    }),
+  }).isRequired,
 };
 
 export default Layout;
