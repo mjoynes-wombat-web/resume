@@ -7,47 +7,17 @@ import {
 const IndexPage = () => (
   <div>
     <H1>
-        Test 1
+        Who Am I?
     </H1>
-    <H2>
-        Test 2
-    </H2>
-    <H3>
-        Test 3
-    </H3>
-    <H4>
-        Test 4
-    </H4>
     <P>
-        Body text.
+        I have been a graphic designer for a decade and have a love for creating stunning visuals that make it easy for people to get the information they are searching for. The technical portions of my work have always been an attraction to me. For this reason I chose to pursue a career in web design and development. It turns out that it's a perfect fit that excites and intrigues me.
     </P>
     <H1>
-        Test 1
+        My Skills
     </H1>
-    <SubH1>
-        Subheading
-    </SubH1>
-    <P>
-        Body text.
-    </P>
     <H2>
-        Test 2
+        Web Design
     </H2>
-    <P>
-        Body text.
-    </P>
-    <H3>
-        Test 3
-    </H3>
-    <P>
-        Body text.
-    </P>
-    <H4>
-        Test 4
-    </H4>
-    <P>
-        Body text.
-    </P>
     <ExternalLink href="https://www.simeonsmith.me/">
         This is a test.
     </ExternalLink>
