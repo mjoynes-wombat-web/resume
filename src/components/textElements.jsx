@@ -1,6 +1,11 @@
 
+import React from 'react';
 import Styled from 'styled-components';
-import Link from 'gatsby-link';
+import PropTypes from 'prop-types';
+
+function isObject(obj) {
+  return (typeof obj === 'object') && (obj !== null);
+}
 
 export const H1 = Styled.h1`
 font-size: 4rem;
@@ -37,4 +42,61 @@ margin: 0.5rem 0;
 export const ExternalLink = Styled.a`
 font-size: 1rem;
 color: red;
+`;
+
+export const UnstyledUList = ({ className, list }) => (
+  <ul className={className}>
+    {list.map(item => (isObject(item)
+      ? (
+        <li key={`primary${item.main}`}>
+          {item.main}
+          <ul className="secondary">
+            {item.subItems.map(secondaryItem => (isObject(secondaryItem)
+              ? (
+                <li key={`secondary${secondaryItem.main}`}>
+                  {secondaryItem.main}
+                  <ul className="tertiary">
+                    {secondaryItem.subItems.map(tertiaryItem => (
+                      <li key={`tertiary${tertiaryItem}`}>
+                        {tertiaryItem}
+                      </li>
+                    ))}
+                  </ul>
+                </li>
+              )
+              : (
+                <li key={`secondary${secondaryItem}`}>
+                  {secondaryItem}
+                </li>
+              )))}
+          </ul>
+        </li>
+      )
+      : (
+        <li key={`primary${item}`}>
+          {item}
+        </li>
+      )
+    ))}
+  </ul>
+);
+
+UnstyledUList.propTypes = {
+  className: PropTypes.string.isRequired,
+  list: PropTypes.arrayOf(PropTypes.oneOfType([
+    PropTypes.shape({
+      main: PropTypes.string,
+      subItems: PropTypes.arrayOf(PropTypes.oneOfType([
+        PropTypes.shape({
+          main: PropTypes.string,
+          subItems: PropTypes.arrayOf(PropTypes.string),
+        }),
+        PropTypes.string,
+      ])),
+    }),
+    PropTypes.string,
+  ])).isRequired,
+};
+
+export const UList = Styled(UnstyledUList)`
 `;

@@ -58,8 +58,6 @@ I have been a graphic designer for a decade and have a love for creating stunnin
 ## Code Editors
 
 * Atom
-* Brackets
-* Dreamweaver
 * Notepad ++
 * Visual Studio Code
 * WebStorm
