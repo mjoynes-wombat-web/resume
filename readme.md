@@ -13,49 +13,49 @@ I have been a graphic designer for a decade and have a love for creating stunnin
 
 # My Skills
 
-### Web Design
+## Web Design
 
 * Desktop
 * User Experience
 * Mobile
 
-### Web Development
+## Web Development
 
 * Database Management
 * REST API
 * Server Management
 
-### Garment Design
+## Garment Design
 
 * Screen Printing
 * Sublimation
 
-### Print Design
+## Print Design
 
 * Offset Press
 * Large Format
 * Digital
 
-### Other Design
+## Other Design
 
 * Signage
 * Displays
 
 # My Technologies
 
-### Back End Frameworks
+## Back End Frameworks
 
 * EmberJS
 * ExpressJS
 * Flask
 
-### Back End Languages
+## Back End Languages
 
 * NodeJS
 * PHP 6
 * Python 2
 
-### Code Editors
+## Code Editors
 
 * Atom
 * Brackets
@@ -64,18 +64,18 @@ I have been a graphic designer for a decade and have a love for creating stunnin
 * Visual Studio Code
 * WebStorm
 
-### Databases
+## Databases
 
 * MySQL
 * SQL Lite
 
-### Development
+## Development
 
 * Docker
 * Heroku
 * Vagrant
 
-### Front End Frameworks
+## Front End Frameworks
 
 * Angular 1
 * Bootstrap
@@ -83,7 +83,7 @@ I have been a graphic designer for a decade and have a love for creating stunnin
 * PreactJS
 * ReactJS
 
-### Front End Languages
+## Front End Languages
 
 * CSS 3
   * SASS
@@ -92,7 +92,7 @@ I have been a graphic designer for a decade and have a love for creating stunnin
   * ECMA Script 6
   * jQuery
 
-### Server
+## Server
 
 * Ubuntu/Debian Linux
   * Apache 2
@@ -100,11 +100,11 @@ I have been a graphic designer for a decade and have a love for creating stunnin
 * MS Server 2008 R2
   * IIS7
 
-### Testing
+## Testing
 
 * Mocha with Chai
 
-### Version Control
+## Version Control
 
 * Git
   * BitBucket
