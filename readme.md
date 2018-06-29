@@ -3,24 +3,19 @@
 
 ## Simeon Smith
 
-### Problem Solver, Graphic Designer, & Web Developer
-
 2611 E. Mission\
 Spokane, WA 99202\
 ssmith@wombatweb.us\
 207.619.1880 (cell)\
 509.280.6173 (home)
 
-I am a web developer, graphic designer, and avid problem solver. I have worked in a range of jobs and believe I can better myself in any situation.\
-I love clear and concise designs. Finding information should be simple. Visuals should enhance messages and guide users to the content they seek.\
-People are complex and surprising. Putting them in boxes does everyone a disservice. Viewing individuals complexly helps me come up with unique and effective solutions for each challenge.\
-Please [check out my work](https://www.simeonsmith.me/my-work) and feel free to [contact me](https://www.simeonsmith.me/make-contact/) with any questions.
+I have been a graphic designer for a decade and have a love for creating stunning visuals that make it easy for people to get the information they are searching for. The technical portions of my work have always been an attraction to me. For this reason I chose to pursue a career in web design and development. It turns out that it's a perfect fit and excites and intrigues me. Please [check out my work](https://www.simeonsmith.me/my-work) and feel free to [contact me](https://www.simeonsmith.me/make-contact/) with any questions.
 
-# Experience Overview
+# My Skills
 
 ## Web Design and Development
 
-[Web Portfolio](https://www.simeonsmith.me/my-work/#web-design)
+
 
 ### Web Design
 
@@ -36,40 +31,23 @@ Please [check out my work](https://www.simeonsmith.me/my-work) and feel free to 
 
 ## Graphic Design
 
-[Graphics Portfolio](https://www.simeonsmith.me/my-work/#graphic-design)
-
 ### Garment Design
 
-* 1-6 Spot Color Design
-* 4 Color Process
+* Screen Printing
 * Sublimation
+
+### Other Design
+
+* Signage
+* Displays
 
 ### Print Design
 
-* Advertisements
-* Art Prints
-* Booklets
-* Business Cards
-* Cookbooks
-* Event Programs
-* Flyers
-* Posters
-* Prepress Layout
-* Rack Cards
+* Offset Press
+* Large Format
+* Digital
 
-### Sign Design
-
-* Backlit Signs
-* Banners
-* Printed Signs
-* Screen Printed Signs
-* Vinyl Signs
-* Wall Prints
-* Wall Vinyl
-* Window Vinyl
-* Widow Prints
-
-# Web and Design Technologies
+# My Technologies
 
 ## Web Technologies
 
@@ -84,6 +62,15 @@ Please [check out my work](https://www.simeonsmith.me/my-work) and feel free to 
 * NodeJS
 * PHP 6
 * Python 2
+
+### Code Editors
+
+* Atom
+* Brackets
+* Dreamweaver
+* Notepad ++
+* Visual Studio Code
+* WebStorm
 
 ### Databases
 
@@ -135,47 +122,42 @@ Please [check out my work](https://www.simeonsmith.me/my-work) and feel free to 
 
 ### Adobe Creative Suite 3-CC2018
 
-* Acrobat Pro
 * Animate
-* Audition
-* Dreamweaver
 * Illustrator
 * InDesign
 * Photoshop Extended
-* Premier
 * XD
-
-### Code Editors
-
-* Atom
-* Brackets
-* Dreamweaver
-* Notepad ++
-* Visual Studio Code
-* WebStorm
 
 ### Office Software
 
 * Microsoft Office 2003-2018
-  * Excel
-  * Outlook
-  * PowerPoint
-  * Publisher
-  * Word
 * Google Apps
-  * Docs
-  * Sheets
-  * Slides
-  * Etc.
 
-# Employment History
+# Projects
+
+[Web Portfolio](https://www.simeonsmith.me/my-work/#web-design)
+[Graphics Portfolio](https://www.simeonsmith.me/my-work/#graphic-design)
+
+## Design Bright
+
+[www.designbright.org](https://www.designbright.org)
+
+Created a web application for funding campaigns for nonprofit marketing projects. Created the front-end using ReactJS. Includes an authorization API, payment API and content editor. The back-end REST API uses ExpressJS, NodeJS and MySQL.
+
+## SimeonSmith.me
+
+[www.simeonsmith.me](https://www.simeonsmith.me)
+
+My personal portfolio site. It's a static site created using Gatsby, ReactJS and NodeJS.
+
+# Recent Employment History
 
 ## K-l Mfg. Co.
 
 ### Graphic Designer
 
 #### Aug. 2015 - Current
-#### Aug. 2013 - Sept. 2014
+#### Aug. 2013 - Nov. 2014
 
 Spokane, WA
 
@@ -195,49 +177,12 @@ Freelance work producing websites for clients.
 
 ### General Manager
 
-#### Sept. 2012 - Aug. 2013
+#### Jan. 2013 - Aug. 2013
+#### May 2011 - Jan. 2013 (Previous position.)
 
 Spokane Valley, WA
 
 Managed the embroidery, screen printing and sign manufacturing. Responsible for production scheduling, customer service, sales and business flow. Performed purchasing, bookkeeping, and collections. Also provided technical support.
-
-#### Design / Production Specialist
-
-#### May 2011 - Sept. 2012
-
-Spokane Valley, WA
-
-Designed graphics for signs, vinyl and screen printing. Assisted with production, customer service and sales.
-
-## AlumniClass.com & Spirit School Apparel
-
-### Production Specialist
-
-#### Oct. 2011 - Sept. 2012
-
-Spokane, WA
-
-Produced custom garments for school and alumni memorabilia.
-
-## Coldwell Banker Northwest Group
-
-### Marketing Director
-
-#### Apr. 2011 - Oct. 2011
-
-Spokane, WA
-
-Designed and produced marketing materials for the company and individual realtors.
-
-## PrintWorks
-
-### Graphic Design Intern
-
-#### Apr. 2008 - Aug. 2010
-
-Homer, AK
-
-Designed and produced print, sign and digital material.
 
 # Education
 
@@ -253,18 +198,4 @@ Designed and produced print, sign and digital material.
 
 #### 2014 - 2017
 
-Graduated Valedictorian with a 3.93 GPA.
-
-## Continuing Personal Education in:
-
-* Adobe CC
-  * Illustrator
-  * Photoshop Extended
-  * XD
-* Web Development
-  * CSS Animation
-  * GraphQL
-  * MongoDB
-  * Python 3
-  * ReactJS
-    * NextJS
+Graduated Valedictorian.
