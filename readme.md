@@ -9,13 +9,9 @@ ssmith@wombatweb.us\
 207.619.1880 (cell)\
 509.280.6173 (home)
 
-I have been a graphic designer for a decade and have a love for creating stunning visuals that make it easy for people to get the information they are searching for. The technical portions of my work have always been an attraction to me. For this reason I chose to pursue a career in web design and development. It turns out that it's a perfect fit and excites and intrigues me. Please [check out my work](https://www.simeonsmith.me/my-work) and feel free to [contact me](https://www.simeonsmith.me/make-contact/) with any questions.
+I have been a graphic designer for a decade and have a love for creating stunning visuals that make it easy for people to get the information they are searching for. The technical portions of my work have always been an attraction to me. For this reason I chose to pursue a career in web design and development. It turns out that it's a perfect fit that excites and intrigues me.
 
 # My Skills
-
-## Web Design and Development
-
-
 
 ### Web Design
 
@@ -29,17 +25,10 @@ I have been a graphic designer for a decade and have a love for creating stunnin
 * REST API
 * Server Management
 
-## Graphic Design
-
 ### Garment Design
 
 * Screen Printing
 * Sublimation
-
-### Other Design
-
-* Signage
-* Displays
 
 ### Print Design
 
@@ -47,9 +36,12 @@ I have been a graphic designer for a decade and have a love for creating stunnin
 * Large Format
 * Digital
 
-# My Technologies
+### Other Design
 
-## Web Technologies
+* Signage
+* Displays
+
+# My Technologies
 
 ### Back End Frameworks
 
@@ -118,25 +110,16 @@ I have been a graphic designer for a decade and have a love for creating stunnin
   * BitBucket
   * GitHub
 
-## Design Technologies
-
-### Adobe Creative Suite 3-CC2018
+## Design
 
 * Animate
 * Illustrator
-* InDesign
 * Photoshop Extended
 * XD
 
-### Office Software
-
-* Microsoft Office 2003-2018
-* Google Apps
-
 # Projects
 
-[Web Portfolio](https://www.simeonsmith.me/my-work/#web-design)
-[Graphics Portfolio](https://www.simeonsmith.me/my-work/#graphic-design)
+[Portfolio](https://www.simeonsmith.me/my-work)
 
 ## Design Bright
 
@@ -182,7 +165,7 @@ Freelance work producing websites for clients.
 
 Spokane Valley, WA
 
-Managed the embroidery, screen printing and sign manufacturing. Responsible for production scheduling, customer service, sales and business flow. Performed purchasing, bookkeeping, and collections. Also provided technical support.
+Managed the daily operations. Performed purchasing, bookkeeping, and collections.
 
 # Education
 
