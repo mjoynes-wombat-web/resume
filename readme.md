@@ -7,7 +7,6 @@
 Spokane, WA 99202\
 ssmith@wombatweb.us\
 207.619.1880 (cell)\
-509.280.6173 (home)
 
 I have been a graphic designer for a decade. I have a love for stunning visuals that make it easy to find information. The technical portions of my work have always been an attraction to me. For this reason I chose to pursue a career in web design and development. It turns out that it's a perfect fit that excites and intrigues me.
 
@@ -40,6 +39,22 @@ I have been a graphic designer for a decade. I have a love for stunning visuals 
 
 * Signage
 * Displays
+
+# Projects
+
+[Portfolio](https://www.simeonsmith.me/my-work)
+
+## Design Bright
+
+[www.designbright.org](https://www.designbright.org)
+
+Created a web application for funding campaigns for nonprofit marketing projects. Created the front-end using ReactJS. Includes an authorization API, payment API and content editor. The back-end REST API uses ExpressJS, NodeJS and MySQL.
+
+## SimeonSmith.me
+
+[www.simeonsmith.me](https://www.simeonsmith.me)
+
+My personal portfolio site. It's a static site created using Gatsby, ReactJS and NodeJS.
 
 # My Technologies
 
@@ -110,26 +125,9 @@ I have been a graphic designer for a decade. I have a love for stunning visuals 
 
 ## Design
 
-* Animate
 * Illustrator
 * Photoshop
 * XD
-
-# Projects
-
-[Portfolio](https://www.simeonsmith.me/my-work)
-
-## Design Bright
-
-[www.designbright.org](https://www.designbright.org)
-
-Created a web application for funding campaigns for nonprofit marketing projects. Created the front-end using ReactJS. Includes an authorization API, payment API and content editor. The back-end REST API uses ExpressJS, NodeJS and MySQL.
-
-## SimeonSmith.me
-
-[www.simeonsmith.me](https://www.simeonsmith.me)
-
-My personal portfolio site. It's a static site created using Gatsby, ReactJS and NodeJS.
 
 # Recent Employment History
 

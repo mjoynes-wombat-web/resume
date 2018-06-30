@@ -11,7 +11,7 @@ const UnstyledProjectCard = ({
     <H2>
       {heading}
     </H2>
-    <ExternalLink href={link.href}>
+    <ExternalLink href={link.href} target="_blank">
       {link.text}
     </ExternalLink>
     <P>

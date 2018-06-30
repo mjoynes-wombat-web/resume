@@ -6,7 +6,7 @@ import 'normalize.css';
 import './index.scss';
 
 const Layout = ({ children, data }) => (
-  <main>
+  <div>
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
@@ -16,7 +16,7 @@ const Layout = ({ children, data }) => (
     />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400|Neuton:300" rel="stylesheet" />
     {children()}
-  </main>
+  </div>
 );
 
 Layout.propTypes = {

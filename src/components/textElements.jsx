@@ -16,21 +16,29 @@ margin: 2rem 0 0.75rem 0;
 border-bottom: 0.25rem #e88563 dotted;
 padding-bottom: 0.625rem;
 display: inline-block;
+
+@media print {
+  margin: 1.5rem 0 0.5rem 0;
+}
 `;
 
 export const H2 = Styled.h2`
-font-size: 2.75rem;
-margin: 1.375rem 0 0.75rem 0;
+font-size: 2rem;
+margin: 1rem 0 0.75rem 0;
+
+@media print {
+  margin: 0.875rem 0 0.375rem 0;
+}
 `;
 
 export const H3 = Styled.h3`
-font-size: 2.125rem;
+font-size: 1.5rem;
 margin: 0.875rem 0 1rem 0;
 line-height: 2rem;
 `;
 
 export const H4 = Styled.h4`
-font-size: 1.125rem;
+font-size: 1rem;
 font-weight: 400;
 margin: 0.5rem 0;
 
@@ -48,9 +56,15 @@ font-size: 1.25rem;
 line-height: 1.625rem;
 margin: 0.875rem 0;
 max-width: 45rem;
+
+@media print {
+  margin: 0.5rem 0;
+}
 `;
 
-export const ExternalLink = Styled.a`
+export const ExternalLink = Styled.a.attrs({
+  target: ({ target }) => target,
+})`
 color: ${brightRust};
 font-size: 1.25rem;
 line-height: 1.625rem;
@@ -119,6 +133,10 @@ margin: 0.75rem 0;
 list-style: none;
 padding-left: 0;
 
+@media print {
+  margin: 0.5rem 0 0.25rem 0;
+}
+
 ul {
   list-style: none;
   padding-left: 1rem;
@@ -126,6 +144,9 @@ ul {
 
 li {
   margin: 0.25rem 0;
+  @media print {
+    margin: 0.125rem 0;
+  }
   &::before {
     color: ${rust};
     content: '◦';
