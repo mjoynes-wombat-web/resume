@@ -14,7 +14,7 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <link href="https://fonts.googleapis.com/css?family=Markazi+Text:400,500|Roboto:300,300i,400" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400|Neuton:300" rel="stylesheet" />
     {children()}
   </main>
 );

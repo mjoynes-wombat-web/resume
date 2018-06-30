@@ -10,11 +10,11 @@ import EduCard from '../components/educationCard';
 
 const IndexPage = () => (
   <div>
-    <H1>
+    <H1 id="siteHeading">
       {'Who Am I?'}
     </H1>
     <P>
-      {'I have been a graphic designer for a decade and have a love for creating stunning visuals that make it easy for people to get the information they are searching for. The technical portions of my work have always been an attraction to me. For this reason I chose to pursue a career in web design and development. It turns out that it\'s a perfect fit that excites and intrigues me.'}
+      {'I have been a graphic designer for a decade. I have a love for stunning visuals that make it easy to find information. The technical portions of my work have always been an attraction to me. For this reason I chose to pursue a career in web design and development. It turns out that it\'s a perfect fit that excites and intrigues me.'}
     </P>
     <section id="mySkills">
       <H1>
@@ -74,7 +74,7 @@ const IndexPage = () => (
             My Technologies
       </H1>
       <ExpCard
-        heading="Bak End Frameworks"
+        heading="Back End Frameworks"
         list={
             [
               'EmberJS',
@@ -262,7 +262,7 @@ const IndexPage = () => (
         title="General Manger"
         dates={[
           'Jan. 2013 - Aug. 2013',
-          'May 2011 - Jan. 2013 (Previous position.)',
+          'May 2011 - Jan. 2013 (Previous position)',
         ]}
         city="Spokane Valley, WA"
         description="Managed daily operations. Performed purchasing, bookkeeping, and collections."

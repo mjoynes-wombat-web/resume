@@ -1,14 +1,55 @@
-body {
-  font-family: 'Roboto', 'Arial', sans-serif;
-  font-weight: 300;
-  margin: 0 auto;
+$small-break: 600px;
+$medium-break: 1000px;
+$large-break: 1500px;
+
+html {
+  @media print {
+    font-size: 0.5em;
+  }
+
+  font-size: 1.125em;
+
+  @media screen and (max-width: $large-break) {
+    font-size: 1em;
+  }
+  @media screen and (max-width: $medium-break) {
+    font-size: 0.875em;
+  }
+  @media screen and (max-width: $small-break) {
+    font-size: 0.75em;
+  }
 }
 
-h1, h2, h3, h4 {
-  font-family: 'Markazi Text', serif;
-  font-weight: 500;
+body {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-weight: 300;
+  margin: 1rem auto;
+  letter-spacing: 0.01rem;
+  max-width: 60rem;
+
+  @media print {
+    max-width: none;
+  }
+}
+
+h1, h2, h3 {
+  font-family: 'Neuton', serif;
+  font-weight: 300;
+  letter-spacing: 0.02rem;
+
+  &#siteHeading {
+    margin-top: 0;
+  }
 }
 
 main {
-  margin: 2rem;
+  padding: 2rem 3rem;
+  box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.25);
+  background: url('../static/img/funky-lines.jpg');
+
+  @media print {
+    box-shadow: none;
+    padding: 0;
+    background: none;
+  }
 }

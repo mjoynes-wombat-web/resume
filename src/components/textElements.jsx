@@ -7,41 +7,55 @@ function isObject(obj) {
   return (typeof obj === 'object') && (obj !== null);
 }
 
+const rust = '#e88563';
+const brightRust = '#de430f';
+
 export const H1 = Styled.h1`
-font-size: 4rem;
-margin: 2.25rem 0 1.25rem 0;
+font-size: 3.5rem;
+margin: 2rem 0 0.75rem 0;
+border-bottom: 0.25rem #e88563 dotted;
+padding-bottom: 0.625rem;
+display: inline-block;
 `;
 
 export const H2 = Styled.h2`
-font-size: 3.5rem;
-margin: 2rem 0 1rem 0;
+font-size: 2.75rem;
+margin: 1.375rem 0 0.75rem 0;
 `;
 
 export const H3 = Styled.h3`
-font-size: 3rem;
-margin: 1.75rem 0 0.75rem 0;
+font-size: 2.125rem;
+margin: 0.875rem 0 1rem 0;
+line-height: 2rem;
 `;
 
 export const H4 = Styled.h4`
-font-size: 2.5rem;
-margin: 1.5rem 0 0.5rem 0;
-`;
-
-export const SubH1 = H2.extend`
-font-family: 'Roboto' sans-serif;
-font-size: 2.5rem;
+font-size: 1.125rem;
 font-weight: 400;
-margin: -1rem 0 1.25rem 0;
+margin: 0.5rem 0;
+
+&:first-of-type {
+  margin-top: 1.25rem;
+}
+
+&:last-of-type {
+  margin-bottom: 1.25rem;
+}
 `;
 
 export const P = Styled.p`
-font-size: 1rem;
-margin: 0.5rem 0;
+font-size: 1.25rem;
+line-height: 1.625rem;
+margin: 0.875rem 0;
+max-width: 45rem;
 `;
 
 export const ExternalLink = Styled.a`
-font-size: 1rem;
-color: red;
+color: ${brightRust};
+font-size: 1.25rem;
+line-height: 1.625rem;
+margin: 0.875rem 0;
+display: block;
 `;
 
 export const UnstyledUList = ({ className, list }) => (
@@ -99,4 +113,27 @@ UnstyledUList.propTypes = {
 };
 
 export const UList = Styled(UnstyledUList)`
+font-size: 1.25rem;
+line-height: 1.5rem;
+margin: 0.75rem 0;
+list-style: none;
+padding-left: 0;
+
+ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+li {
+  margin: 0.25rem 0;
+  &::before {
+    color: ${rust};
+    content: '◦';
+    font-size: 1.75rem;
+    margin-right: 0.5rem;
+    position: relative;
+    top: 0.125rem;
+
+  }
+}
 `;
