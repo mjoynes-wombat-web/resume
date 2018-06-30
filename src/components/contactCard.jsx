@@ -98,6 +98,10 @@ p, a {
   margin: 0.5rem 0;
 }
 
+a{
+  transform-origin: center;
+}
+
 @media print {
 
   a {
@@ -115,6 +119,7 @@ p, a {
   a {
     display: inline-block;
     margin: 0 0 0 1rem;
+    transform-origin: center;
 
     @media print {
       display: block;
@@ -127,6 +132,7 @@ p, a {
 
     svg {
       transition: transform 0.5s;
+      transform-origin: center;
       &:hover {
         transform: scale(1.125);
       }
