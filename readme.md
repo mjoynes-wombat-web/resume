@@ -131,7 +131,7 @@ My personal portfolio site. It's a static site created using Gatsby, ReactJS and
 
 # Recent Employment History
 
-## K-l Mfg. Co.
+## K-L Mfg. Co.
 
 ### Graphic Designer
 
@@ -140,7 +140,7 @@ My personal portfolio site. It's a static site created using Gatsby, ReactJS and
 
 Spokane, WA
 
-Design, layout, and print of custom athletic sports apparel for companies like Nike, Castelli, and Terry.
+Design, layout, and print of custom athletic apparel for companies like Nike, Castelli, and Terry.
 
 ## Wombat Web Design
 

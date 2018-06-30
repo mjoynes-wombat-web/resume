@@ -248,9 +248,9 @@ const IndexPage = () => (
           heading="Design"
           list={
             [
-              'Illustrator',
-              'Photoshop',
-              'XD',
+              'Adobe Illustrator',
+              'Adobe Photoshop',
+              'Adobe XD',
             ]
         }
         />
@@ -262,14 +262,14 @@ const IndexPage = () => (
       </H1>
       <div id="grid">
         <WorkCard
-          heading="K-l Mfg. Co."
+          heading="K-L Mfg. Co."
           title="Graphic Designer"
           dates={[
             'Aug. 2015 - Current',
             'Aug. 2013 - Nov. 2014',
           ]}
           city="Spokane, WA"
-          description="Design, layout, and print of custom athletic sports apparel for companies like Nike, Castelli, and Terry."
+          description="Design, layout, and print of custom athletic apparel for companies like Nike, Castelli, and Terry."
         />
         <WorkCard
           heading="Wombat Web Design"
@@ -282,7 +282,7 @@ const IndexPage = () => (
         />
         <WorkCard
           heading="Purrfect Logos"
-          title="General Manger"
+          title="General Manager"
           dates={[
             'Jan. 2013 - Aug. 2013',
             'May 2011 - Jan. 2013 (Previous position)',
