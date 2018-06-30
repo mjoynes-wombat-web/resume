@@ -43,7 +43,6 @@ h1, h2, h3 {
   letter-spacing: 0.02rem;
 
   &#siteHeading {
-    margin-top: 12rem;
     @media print {
       margin-top: 0;
     }
@@ -55,6 +54,7 @@ main {
   box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.25);
   background: url('../static/img/funky-lines.jpg');
   position: relative;
+  padding-top: 9rem;
 
   @media print {
     box-shadow: none;
@@ -69,6 +69,13 @@ main {
       > div#grid {
         > section {
           flex: 0 0 calc(50% - 1.5rem);
+
+          @media screen and (max-width: $medium-break) {
+            
+          }
+          @media screen and (max-width: $small-break) {
+            flex: 0 0 100%;
+          }
         }
       }
     }
@@ -79,6 +86,14 @@ main {
       > section {
         flex: 0 0 calc(33% - 1.5rem);
         margin-right: 1.5rem;
+
+        @media screen and (max-width: $medium-break) {
+          flex: 0 0 calc(50% - 1.5rem);
+          margin-right: 1.5rem;
+        }
+        @media screen and (max-width: $small-break) {
+          flex: 0 0 100%;
+        }
       }
     }
   }

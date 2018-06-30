@@ -120,58 +120,6 @@ const IndexPage = () => (
       </H1>
       <div id="grid">
         <ExpCard
-          heading="Back End Frameworks"
-          list={
-            [
-              'EmberJS',
-              'ExpressJS',
-              'Flask',
-            ]
-        }
-        />
-        <ExpCard
-          heading="Back End Languages"
-          list={
-            [
-              'NodeJS',
-              'PHP 6',
-              'Python 2',
-            ]
-        }
-        />
-        <ExpCard
-          heading="Databases"
-          list={
-            [
-              'MySQL',
-              'SQL Lite',
-            ]
-        }
-        />
-        <ExpCard
-          heading="Code Editors"
-          list={
-            [
-              'Atom',
-              'Notepad ++',
-              'Visual Studio Code',
-              'WebStorm',
-            ]
-        }
-        />
-        <ExpCard
-          heading="Front End Frameworks"
-          list={
-            [
-              'Angular 1',
-              'Bootstrap',
-              'Foundation',
-              'PreactJS',
-              'ReactJS',
-            ]
-        }
-        />
-        <ExpCard
           heading="Front End Languages"
           list={
             [
@@ -193,12 +141,45 @@ const IndexPage = () => (
         }
         />
         <ExpCard
-          heading="Development"
+          heading="Front End Frameworks"
           list={
             [
-              'Docker',
-              'Heroku',
-              'Vagrant',
+              'Angular 1',
+              'Bootstrap',
+              'Foundation',
+              'PreactJS',
+              'ReactJS',
+            ]
+        }
+        />
+        <ExpCard
+          heading="Code Editors"
+          list={
+            [
+              'Atom',
+              'Notepad ++',
+              'Visual Studio Code',
+              'WebStorm',
+            ]
+        }
+        />
+        <ExpCard
+          heading="Back End Frameworks"
+          list={
+            [
+              'EmberJS',
+              'ExpressJS',
+              'Flask',
+            ]
+        }
+        />
+        <ExpCard
+          heading="Back End Languages"
+          list={
+            [
+              'NodeJS',
+              'PHP 6',
+              'Python 2',
             ]
         }
         />
@@ -219,6 +200,25 @@ const IndexPage = () => (
                   'IIS7',
                 ],
               },
+            ]
+        }
+        />
+        <ExpCard
+          heading="Databases"
+          list={
+            [
+              'MySQL',
+              'SQL Lite',
+            ]
+        }
+        />
+        <ExpCard
+          heading="Development"
+          list={
+            [
+              'Docker',
+              'Heroku',
+              'Vagrant',
             ]
         }
         />

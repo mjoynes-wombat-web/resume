@@ -9,8 +9,6 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 import { H2, P, ExternalLink } from './textElements';
 
-console.log(faEnvelope);
-
 const UnstyledContactCard = ({
   className,
   name,
@@ -40,29 +38,29 @@ const UnstyledContactCard = ({
       </ExternalLink>
     </section>
     <section id="social">
-      <ExternalLink href={linkedin}>
+      <ExternalLink href={linkedin} target="_blank">
         <span className="url">
           {linkedin}
         </span>
-        <FontAwesomeIcon alt="LinkedIn" icon={faLinkedIn} target="_blank" />
+        <FontAwesomeIcon alt="LinkedIn" icon={faLinkedIn} />
       </ExternalLink>
-      <ExternalLink href={github}>
+      <ExternalLink href={github} target="_blank">
         <span className="url">
           {github}
         </span>
-        <FontAwesomeIcon alt="GitHub" icon={faGitHub} target="_blank" />
+        <FontAwesomeIcon alt="GitHub" icon={faGitHub} />
       </ExternalLink>
-      <ExternalLink href={portfolio}>
+      <ExternalLink href={portfolio} target="_blank">
         <span className="url">
           {portfolio}
         </span>
-        <FontAwesomeIcon alt="Simeon's Portfolio" icon={faExternalLink} target="_blank" />
+        <FontAwesomeIcon alt="Simeon's Portfolio" icon={faExternalLink} />
       </ExternalLink>
-      <ExternalLink href={contact} className="no-print">
+      <ExternalLink href={contact} className="no-print" target="_blank">
         <span className="url">
           {contact}
         </span>
-        <FontAwesomeIcon alt="Send Message" icon={faEnvelope} target="_blank" />
+        <FontAwesomeIcon alt="Send Message" icon={faEnvelope} />
       </ExternalLink>
     </section>
   </article>
@@ -90,6 +88,15 @@ align-items: flex-end;
 text-align: right;
 position: absolute;
 right: 2rem;
+top: 2rem;
+
+h2 {
+  margin: 0;
+}
+
+p, a {
+  margin: 0.5rem 0;
+}
 
 @media print {
 
@@ -115,6 +122,13 @@ right: 2rem;
 
       &.no-print {
         display: none;
+      }
+    }
+
+    svg {
+      transition: transform 0.5s;
+      &:hover {
+        transform: scale(1.125);
       }
     }
 

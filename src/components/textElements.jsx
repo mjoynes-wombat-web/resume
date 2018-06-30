@@ -7,15 +7,21 @@ function isObject(obj) {
   return (typeof obj === 'object') && (obj !== null);
 }
 
-const rust = '#e88563';
-const brightRust = '#de430f';
+const marine = '#3368c4';
+const royal = '#003ca4';
+const brightRoyal = '#0054e6';
+const smallBreak = '600px';
 
 export const H1 = Styled.h1`
 font-size: 3.5rem;
 margin: 2rem 0 0.75rem 0;
-border-bottom: 0.25rem #e88563 dotted;
+border-bottom: 0.42rem ${marine} dotted;
 padding-bottom: 0.625rem;
 display: inline-block;
+
+@media screen and (min-width: ${smallBreak}) {
+  border-width: 0.375rem;
+}
 
 @media print {
   margin: 1.5rem 0 0.5rem 0;
@@ -65,11 +71,17 @@ max-width: 45rem;
 export const ExternalLink = Styled.a.attrs({
   target: ({ target }) => target,
 })`
-color: ${brightRust};
+color: ${royal};
 font-size: 1.25rem;
 line-height: 1.625rem;
 margin: 0.875rem 0;
 display: block;
+transition: color 0.5s, transform 0.5s;
+
+&:hover {
+  color: ${brightRoyal}
+  transform: scale(1.04);
+}
 `;
 
 export const UnstyledUList = ({ className, list }) => (
@@ -148,7 +160,7 @@ li {
     margin: 0.125rem 0;
   }
   &::before {
-    color: ${rust};
+    color: ${marine};
     content: '◦';
     font-size: 1.75rem;
     margin-right: 0.5rem;
