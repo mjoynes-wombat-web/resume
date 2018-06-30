@@ -6,11 +6,12 @@ import {
   H2, H3, H4, P,
 } from './textElements';
 
-const UnstyledEduCard = ({
+const UnstyledWorkCard = ({
   className,
   heading,
-  program,
+  title,
   dates,
+  city,
   description,
 }) => (
   <section className={className}>
@@ -18,36 +19,32 @@ const UnstyledEduCard = ({
       {heading}
     </H2>
     <H3>
-      {program}
+      {title}
     </H3>
     {dates.map(date => (
       <H4 key={`${heading}${date}`}>
         {date}
       </H4>
     ))}
-    {description
-      ? (
-        <P>
-          {description}
-        </P>
-      )
-      : null}
+    <P>
+      {city}
+    </P>
+    <P>
+      {description}
+    </P>
   </section>
 );
 
-UnstyledEduCard.propTypes = {
+UnstyledWorkCard.propTypes = {
   className: PropTypes.string.isRequired,
   heading: PropTypes.string.isRequired,
-  program: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
   dates: PropTypes.arrayOf(PropTypes.string).isRequired,
-  description: PropTypes.string,
+  city: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
 };
 
-UnstyledEduCard.defaultProps = {
-  description: null,
-};
-
-const EduCard = Styled(UnstyledEduCard)`
+const WorkCard = Styled(UnstyledWorkCard)`
 `;
 
-export default EduCard;
+export default WorkCard;

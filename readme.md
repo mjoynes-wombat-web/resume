@@ -112,7 +112,7 @@ I have been a graphic designer for a decade and have a love for creating stunnin
 
 * Animate
 * Illustrator
-* Photoshop Extended
+* Photoshop
 * XD
 
 # Projects
@@ -146,7 +146,7 @@ Design, layout, and print of custom athletic sports apparel for companies like N
 
 ## Wombat Web Design
 
-### Web Design / Owner
+### Owner / Web Designer
 
 #### Sept. 2014 - Current
 
@@ -163,7 +163,7 @@ Freelance work producing websites for clients.
 
 Spokane Valley, WA
 
-Managed the daily operations. Performed purchasing, bookkeeping, and collections.
+Managed daily operations. Performed purchasing, bookkeeping, and collections.
 
 # Education
 
