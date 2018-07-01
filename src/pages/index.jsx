@@ -277,7 +277,7 @@ const IndexPage = () => (
           dates={[
             'Sept. 2014 - Current',
           ]}
-          city="Ellensburg, WA"
+          city="Spokane, WA"
           description="Freelance work producing websites for clients."
         />
         <WorkCard
