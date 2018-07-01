@@ -79,6 +79,10 @@ display: block;
 transition: color 0.5s, transform 0.5s;
 transform-origin: left;
 
+@media print {
+  margin: 0.5rem 0;
+}
+
 &:hover {
   color: ${brightRoyal}
   transform: scale(1.04);

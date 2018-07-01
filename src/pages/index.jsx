@@ -1,5 +1,9 @@
 import React from 'react';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import faGitHub from '@fortawesome/fontawesome-free-brands/faGithubSquare';
+import faLinkedIn from '@fortawesome/fontawesome-free-brands/faLinkedin';
+
 import {
   H1, P, ExternalLink,
 } from '../components/textElements';
@@ -32,7 +36,7 @@ const IndexPage = () => (
     </P>
     <section id="mySkills">
       <H1>
-        {'My Skills'}
+        {'Skills'}
       </H1>
       <div id="grid">
         <ExpCard
@@ -93,30 +97,126 @@ const IndexPage = () => (
         href="https://www.simeonsmith.me/my-work"
         target="_blank"
       >
-        {'Portfolio'}
+        <FontAwesomeIcon alt="GitHub" icon={faGitHub} />
+        <span className="text">
+          {'Portfolio'}
+        </span>
+        <span className="url">
+          {'Portfolio: https://www.simeonsmith.me/my-work'}
+        </span>
       </ExternalLink>
       <div id="grid">
         <ProjectCard
           heading="Design Bright"
           link={{
-            text: 'www.designbright.org',
-            href: 'https://www.designbright.org',
+            site: {
+              text: 'www.designbright.org',
+              href: 'https://www.designbright.org',
+            },
+            github: [
+              {
+                text: 'Site Repo',
+                href: 'https://github.com/ssmith-wombatweb/design-bright-client',
+              },
+              {
+                text: 'API Repo',
+                href: 'https://github.com/ssmith-wombatweb/design-bright-api',
+              },
+            ],
           }}
           description="Created a web application for funding campaigns for nonprofit marketing projects. Created the front-end using ReactJS. Includes an authorization API, payment API and content editor. The back-end REST API uses ExpressJS, NodeJS and MySQL."
         />
         <ProjectCard
           heading="SimeonSmith.me"
           link={{
-            text: 'www.simeonsmith.me',
-            href: 'https://www.simeonsmith.me',
+            site: {
+              text: 'www.simeonsmith.me',
+              href: 'https://www.simeonsmith.me',
+            },
+            github: [
+              {
+                text: 'Site Repo',
+                href: 'https://github.com/ssmith-wombatweb/simeonsmith.me',
+              },
+            ],
           }}
           description="My personal portfolio site. It's a static site created using Gatsby, ReactJS and NodeJS."
         />
       </div>
     </section>
+    <section id="employment">
+      <H1>
+        {'Recent Employment'}
+      </H1>
+      <ExternalLink
+        href="https://www.linkedin.com/in/tofieldya/#experience"
+        target="_blank"
+      >
+        <FontAwesomeIcon alt="LinkedIn" icon={faLinkedIn} />
+        <span className="text">
+          {'Full History'}
+        </span>
+        <span className="url">
+          {'Full History: https://www.linkedin.com/in/tofieldya/#experience'}
+        </span>
+      </ExternalLink>
+      <div id="grid">
+        <WorkCard
+          heading="K-L Mfg. Co."
+          title="Graphic Designer"
+          dates={[
+            'Aug. 2015 - Current',
+            'Aug. 2013 - Nov. 2014',
+          ]}
+          city="Spokane, WA"
+          description="Design, layout, and print of custom athletic apparel for companies like Nike, Castelli, and Terry."
+        />
+        <WorkCard
+          heading="Wombat Web Design"
+          title="Owner / Web Designer"
+          dates={[
+            'Sept. 2014 - Current',
+          ]}
+          city="Spokane, WA"
+          description="Freelance work producing websites for clients."
+        />
+        <WorkCard
+          heading="Purrfect Logos"
+          title="General Manager"
+          dates={[
+            'Jan. 2013 - Aug. 2013',
+            'May 2011 - Jan. 2013 (Previous position)',
+          ]}
+          city="Spokane Valley, WA"
+          description="Managed daily operations. Performed purchasing, bookkeeping, and collections."
+        />
+      </div>
+    </section>
+    <section id="education">
+      <H1>
+        {'Education'}
+      </H1>
+      <div id="grid">
+        <EduCard
+          heading="Interior Distance Education of Alaska (IDEA)"
+          program="High School Diploma"
+          dates={[
+            '2003-2007',
+          ]}
+        />
+        <EduCard
+          heading="Full Sail University"
+          program="Web Design & Development Bachelors of Science"
+          dates={[
+            '2014 - 2017',
+          ]}
+          description="Graduated Valedictorian."
+        />
+      </div>
+    </section>
     <section id="myTech">
       <H1>
-            My Technologies
+        {'Technologies'}
       </H1>
       <div id="grid">
         <ExpCard
@@ -253,64 +353,6 @@ const IndexPage = () => (
               'Adobe XD',
             ]
         }
-        />
-      </div>
-    </section>
-    <section id="employment">
-      <H1>
-        {'Recent Employment History'}
-      </H1>
-      <div id="grid">
-        <WorkCard
-          heading="K-L Mfg. Co."
-          title="Graphic Designer"
-          dates={[
-            'Aug. 2015 - Current',
-            'Aug. 2013 - Nov. 2014',
-          ]}
-          city="Spokane, WA"
-          description="Design, layout, and print of custom athletic apparel for companies like Nike, Castelli, and Terry."
-        />
-        <WorkCard
-          heading="Wombat Web Design"
-          title="Owner / Web Designer"
-          dates={[
-            'Sept. 2014 - Current',
-          ]}
-          city="Spokane, WA"
-          description="Freelance work producing websites for clients."
-        />
-        <WorkCard
-          heading="Purrfect Logos"
-          title="General Manager"
-          dates={[
-            'Jan. 2013 - Aug. 2013',
-            'May 2011 - Jan. 2013 (Previous position)',
-          ]}
-          city="Spokane Valley, WA"
-          description="Managed daily operations. Performed purchasing, bookkeeping, and collections."
-        />
-      </div>
-    </section>
-    <section id="education">
-      <H1>
-        {'Education'}
-      </H1>
-      <div id="grid">
-        <EduCard
-          heading="Interior Distance Education of Alaska (IDEA)"
-          program="High School Diploma"
-          dates={[
-            '2003-2007',
-          ]}
-        />
-        <EduCard
-          heading="Full Sail University"
-          program="Web Design & Development Bachelors of Science"
-          dates={[
-            '2014 - 2017',
-          ]}
-          description="Graduated Valedictorian."
         />
       </div>
     </section>

@@ -65,6 +65,7 @@ main {
 
 main {
   > section {
+    page-break-inside: avoid;
     &#projects, &#education {
       > div#grid {
         > section {
@@ -95,6 +96,26 @@ main {
           flex: 0 0 100%;
         }
       }
+    }
+  }
+}
+
+a{
+  svg {
+    margin-right: 0.5rem;
+  }
+
+  span.url {
+    display: none;
+
+    @media print {
+      display: initial;
+    }
+  }
+
+  @media print {
+    span.text {
+      display: none;
     }
   }
 }
