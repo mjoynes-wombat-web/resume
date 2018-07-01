@@ -15,7 +15,7 @@ module.exports = {
       options: {
         postCssPlugins: [
           postCssFocus(),
-          autoprefixer({ browsers: browserslist() }),
+          autoprefixer({ browsers: browserslist('IE >= 10') }),
         ],
       },
     },
