@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkSquare as faExternalLink } from '@fortawesome/pro-solid-svg-icons/faExternalLinkSquare';
 
 import {
-  H2, H3, H4, P,
+  H2, H3, H4, P, ExternalLink,
 } from './textElements';
 
 const UnstyledEduCard = ({
