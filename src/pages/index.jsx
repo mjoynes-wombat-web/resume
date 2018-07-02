@@ -12,6 +12,7 @@ import ProjectCard from '../components/projectCard';
 import WorkCard from '../components/workCard';
 import EduCard from '../components/educationCard';
 import ContactCard from '../components/contactCard';
+import Transcript from '../static/docs/official-transcript.pdf';
 
 const IndexPage = () => (
   <main>
@@ -196,6 +197,18 @@ const IndexPage = () => (
       <H1>
         {'Education'}
       </H1>
+      <ExternalLink
+        href={Transcript}
+        target="_blank"
+      >
+        <FontAwesomeIcon alt="Transcript" icon={faLinkedIn} />
+        <span className="text">
+          {'Transcript'}
+        </span>
+        <span className="url">
+          {`Transcript: ${Transcript}`}
+        </span>
+      </ExternalLink>
       <div id="grid">
         <EduCard
           heading="Interior Distance Education of Alaska (IDEA)"
