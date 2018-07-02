@@ -1,9 +1,7 @@
 import React from 'react';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import faGitHub from '@fortawesome/fontawesome-free-brands/faGithubSquare';
 import faLinkedIn from '@fortawesome/fontawesome-free-brands/faLinkedin';
-import { faExternalLinkSquare as faExternalLink } from '@fortawesome/pro-solid-svg-icons/faExternalLinkSquare';
 
 import {
   H1, P, ExternalLink,
@@ -198,18 +196,6 @@ const IndexPage = () => (
       <H1>
         {'Education'}
       </H1>
-      <ExternalLink
-        href={Transcript}
-        target="_blank"
-      >
-        <FontAwesomeIcon alt="Transcript" icon={faExternalLink} />
-        <span className="text">
-          {'Transcript'}
-        </span>
-        <span className="url">
-          {`Transcript: https://resume.simeonsmith.me${Transcript}`}
-        </span>
-      </ExternalLink>
       <div id="grid">
         <EduCard
           heading="Interior Distance Education of Alaska (IDEA)"
@@ -224,6 +210,7 @@ const IndexPage = () => (
           dates={[
             '2014 - 2017',
           ]}
+          transcript={Transcript}
           description="Graduated Valedictorian with a 3.93 GPA."
         />
       </div>
