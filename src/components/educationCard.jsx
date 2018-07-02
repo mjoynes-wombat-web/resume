@@ -23,6 +23,18 @@ const UnstyledEduCard = ({
     <H3>
       {program}
     </H3>
+    {dates.map(date => (
+      <H4 key={`${heading}${date}`}>
+        {date}
+      </H4>
+    ))}
+    {description
+      ? (
+        <P>
+          {description}
+        </P>
+      )
+      : null}
     {transcript ? (
       <ExternalLink
         href={transcript}
@@ -38,18 +50,6 @@ const UnstyledEduCard = ({
       </ExternalLink>
     )
     : null}
-    {dates.map(date => (
-      <H4 key={`${heading}${date}`}>
-        {date}
-      </H4>
-    ))}
-    {description
-      ? (
-        <P>
-          {description}
-        </P>
-      )
-      : null}
   </section>
 );
 
