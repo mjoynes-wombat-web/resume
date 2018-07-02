@@ -210,7 +210,7 @@ const IndexPage = () => (
           dates={[
             '2014 - 2017',
           ]}
-          description="Graduated Valedictorian."
+          description="Graduated Valedictorian with a 3.93 GPA."
         />
       </div>
     </section>

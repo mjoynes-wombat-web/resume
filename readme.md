@@ -3,10 +3,10 @@
 
 ## Simeon Smith
 
-2611 E. Mission\
-Spokane, WA 99202\
-ssmith@wombatweb.us\
-207.619.1880 (cell)\
+2611 E. Mission  
+Spokane, WA 99202  
+ssmith@wombatweb.us  
+207.619.1880 (cell)  
 
 I have been a graphic designer for a decade. I have a love for stunning visuals that make it easy to find information. The technical portions of my work have always been an attraction to me. For this reason I chose to pursue a career in web design and development. It turns out that it's a perfect fit that excites and intrigues me.
 
@@ -177,4 +177,4 @@ Managed daily operations. Performed purchasing, bookkeeping, and collections.
 
 #### 2014 - 2017
 
-Graduated Valedictorian.
+Graduated Valedictorian with a 3.93 GPA.
