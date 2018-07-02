@@ -3,6 +3,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import faGitHub from '@fortawesome/fontawesome-free-brands/faGithubSquare';
 import faLinkedIn from '@fortawesome/fontawesome-free-brands/faLinkedin';
+import { faExternalLinkSquare as faExternalLink } from '@fortawesome/pro-solid-svg-icons/faExternalLinkSquare';
 
 import {
   H1, P, ExternalLink,
@@ -201,12 +202,12 @@ const IndexPage = () => (
         href={Transcript}
         target="_blank"
       >
-        <FontAwesomeIcon alt="Transcript" icon={faLinkedIn} />
+        <FontAwesomeIcon alt="Transcript" icon={faExternalLink} />
         <span className="text">
           {'Transcript'}
         </span>
         <span className="url">
-          {`Transcript: ${Transcript}`}
+          {`Transcript: https://resume.simeonsmith.me${Transcript}`}
         </span>
       </ExternalLink>
       <div id="grid">
