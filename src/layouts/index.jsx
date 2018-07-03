@@ -6,6 +6,7 @@ import 'normalize.css';
 import './index.scss';
 
 const Layout = ({ children, data }) => (
+  {document.createElement('main');}
   <div>
     <Helmet
       title={data.site.siteMetadata.title}
