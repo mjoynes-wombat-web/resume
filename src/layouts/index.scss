@@ -55,6 +55,7 @@ main {
   background: url('../static/img/funky-lines.png');
   position: relative;
   padding-top: 9rem;
+  display: block; // Adding for IE support.
 
   @media screen and (max-width: 460px) {
     padding-top: 15rem;
@@ -65,6 +66,10 @@ main {
     padding: 0;
     background: none;
   }
+}
+
+section, article {
+  display: block; // Adding for IE support.
 }
 
 main {
