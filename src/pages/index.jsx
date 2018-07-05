@@ -32,7 +32,7 @@ const IndexPage = () => (
       {'Who Am I?'}
     </H1>
     <P>
-      {'I have been a graphic designer for a decade. I have a love for stunning visuals that make it easy to find information. The technical portions of my work have always been an attraction to me. For this reason I chose to pursue a career in web design and development. It turns out that it\'s a perfect fit that excites and intrigues me.'}
+      {'I have been a graphic designer for a decade. I love stunning visuals that make it easy to find information. The technical portions of my work have always been attractive to me. For this reason I chose to pursue a career in web design and development. It turns out that it\'s a perfect fit that excites and intrigues me.'}
     </P>
     <section id="mySkills">
       <H1>
@@ -124,7 +124,7 @@ const IndexPage = () => (
               },
             ],
           }}
-          description="Created a web application for funding campaigns for nonprofit marketing projects. Created the front-end using ReactJS. Includes an authorization API, payment API and content editor. The back-end REST API uses ExpressJS, NodeJS and MySQL."
+          description="An intuitive web application for creating funding campaigns for nonprofit marketing projects. The front-end uses ReactJS. Includes an authorization API, payment API, and content editor. The back-end REST API uses ExpressJS, NodeJS and MySQL."
         />
         <ProjectCard
           heading="SimeonSmith.me"
@@ -357,6 +357,13 @@ const IndexPage = () => (
         />
       </div>
     </section>
+    <P className="resume-link">
+      {'An updated online version of this resume can be found at '}
+      <ExternalLink href="https://resume.simeonsmith.me" display="inline">
+        {'https://resume.simeonsmith.me'}
+      </ExternalLink>
+      {'.'}
+    </P>
   </main>
 );
 
