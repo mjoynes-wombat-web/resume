@@ -56,6 +56,10 @@ main {
   position: relative;
   padding-top: 9rem;
 
+  @media screen and (max-width: 460px) {
+    padding-top: 15rem;
+  } 
+
   @media print {
     box-shadow: none;
     padding: 0;
@@ -67,7 +71,7 @@ main {
   > section {
     page-break-inside: avoid;
     &#projects, &#education {
-      > div#grid {
+      > div.grid {
         > section {
           flex: 0 0 calc(50% - 1.5rem);
 
@@ -80,7 +84,7 @@ main {
         }
       }
     }
-    > div#grid {
+    > div.grid {
       display: flex;
       flex-wrap: wrap;
 

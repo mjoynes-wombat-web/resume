@@ -8,6 +8,7 @@ import './index.scss';
 const Layout = ({ children, data }) => (
   <div>
     <Helmet
+      htmlAttributes={{ lang: 'en-us' }}
       title={data.site.siteMetadata.title}
       meta={[
         { name: 'description', content: 'Sample' },

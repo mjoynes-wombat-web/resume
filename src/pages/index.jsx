@@ -38,7 +38,7 @@ const IndexPage = () => (
       <H1>
         {'Skills'}
       </H1>
-      <div id="grid">
+      <div className="grid">
         <ExpCard
           heading="Web Design"
           list={
@@ -105,7 +105,7 @@ const IndexPage = () => (
           {'Portfolio: https://www.simeonsmith.me/my-work'}
         </span>
       </ExternalLink>
-      <div id="grid">
+      <div className="grid">
         <ProjectCard
           heading="Design Bright"
           link={{
@@ -160,7 +160,7 @@ const IndexPage = () => (
           {'Full History: https://www.linkedin.com/in/tofieldya/#experience'}
         </span>
       </ExternalLink>
-      <div id="grid">
+      <div className="grid">
         <WorkCard
           heading="K-L Mfg. Co."
           title="Graphic Designer"
@@ -196,17 +196,17 @@ const IndexPage = () => (
       <H1>
         {'Education'}
       </H1>
-      <div id="grid">
-        <EduCard
+      <div className="grid">
+        {/* <EduCard
           heading="Interior Distance Education of Alaska (IDEA)"
           program="High School Diploma"
           dates={[
             '2003-2007',
           ]}
-        />
+        /> */}
         <EduCard
           heading="Full Sail University"
-          program="Web Design & Development Bachelors of Science"
+          program="Bachelors of Science in Web Design & Development"
           dates={[
             '2014 - 2017',
           ]}
@@ -219,7 +219,7 @@ const IndexPage = () => (
       <H1>
         {'Technologies'}
       </H1>
-      <div id="grid">
+      <div className="grid">
         <ExpCard
           heading="Front End Languages"
           list={
