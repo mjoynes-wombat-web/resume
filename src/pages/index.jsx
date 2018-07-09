@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import faGitHub from '@fortawesome/fontawesome-free-brands/faGithubSquare';
 import faLinkedIn from '@fortawesome/fontawesome-free-brands/faLinkedin';
+import { faExternalLinkSquare as faExternalLink } from '@fortawesome/pro-solid-svg-icons/faExternalLinkSquare';
 
 import {
   H1, P, ExternalLink,
@@ -97,7 +98,7 @@ const IndexPage = () => (
         href="https://www.simeonsmith.me/my-work"
         target="_blank"
       >
-        <FontAwesomeIcon alt="GitHub" icon={faGitHub} />
+        <FontAwesomeIcon alt="Portfolio" icon={faExternalLink} />
         <span className="text">
           {'Portfolio'}
         </span>
