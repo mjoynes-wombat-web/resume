@@ -75,7 +75,7 @@ color: ${royal};
 font-size: 1.25rem;
 line-height: 1.625rem;
 margin: 0.875rem 0;
-display: block;
+display: ${({ display }) => display || 'block'};
 transition: color 0.5s, transform 0.5s;
 transform-origin: left;
 

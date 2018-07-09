@@ -33,13 +33,13 @@ const IndexPage = () => (
       {'Who Am I?'}
     </H1>
     <P>
-      {'I have been a graphic designer for a decade. I have a love for stunning visuals that make it easy to find information. The technical portions of my work have always been an attraction to me. For this reason I chose to pursue a career in web design and development. It turns out that it\'s a perfect fit that excites and intrigues me.'}
+      {'I have been a graphic designer for a decade. I love stunning visuals that make it easy to find information. The technical portions of my work have always been attractive to me. For this reason I chose to pursue a career in web design and development. It turns out that it\'s a perfect fit that excites and intrigues me.'}
     </P>
     <section id="mySkills">
       <H1>
         {'Skills'}
       </H1>
-      <div id="grid">
+      <div className="grid">
         <ExpCard
           heading="Web Design"
           list={
@@ -106,7 +106,7 @@ const IndexPage = () => (
           {'Portfolio: https://www.simeonsmith.me/my-work'}
         </span>
       </ExternalLink>
-      <div id="grid">
+      <div className="grid">
         <ProjectCard
           heading="Design Bright"
           link={{
@@ -125,7 +125,7 @@ const IndexPage = () => (
               },
             ],
           }}
-          description="Created a web application for funding campaigns for nonprofit marketing projects. Created the front-end using ReactJS. Includes an authorization API, payment API and content editor. The back-end REST API uses ExpressJS, NodeJS and MySQL."
+          description="An intuitive web application for creating funding campaigns for nonprofit marketing projects. The front-end uses ReactJS. Includes an authorization API, payment API, and content editor. The back-end REST API uses ExpressJS, NodeJS and MySQL."
         />
         <ProjectCard
           heading="SimeonSmith.me"
@@ -161,7 +161,7 @@ const IndexPage = () => (
           {'Full History: https://www.linkedin.com/in/tofieldya/#experience'}
         </span>
       </ExternalLink>
-      <div id="grid">
+      <div className="grid">
         <WorkCard
           heading="K-L Mfg. Co."
           title="Graphic Designer"
@@ -197,17 +197,17 @@ const IndexPage = () => (
       <H1>
         {'Education'}
       </H1>
-      <div id="grid">
-        <EduCard
+      <div className="grid">
+        {/* <EduCard
           heading="Interior Distance Education of Alaska (IDEA)"
           program="High School Diploma"
           dates={[
             '2003-2007',
           ]}
-        />
+        /> */}
         <EduCard
           heading="Full Sail University"
-          program="Web Design & Development Bachelors of Science"
+          program="Bachelors of Science in Web Design & Development"
           dates={[
             '2014 - 2017',
           ]}
@@ -220,7 +220,7 @@ const IndexPage = () => (
       <H1>
         {'Technologies'}
       </H1>
-      <div id="grid">
+      <div className="grid">
         <ExpCard
           heading="Front End Languages"
           list={
@@ -358,6 +358,13 @@ const IndexPage = () => (
         />
       </div>
     </section>
+    <P className="resume-link">
+      {'An updated online version of this resume can be found at '}
+      <ExternalLink href="https://resume.simeonsmith.me" display="inline">
+        {'https://resume.simeonsmith.me'}
+      </ExternalLink>
+      {'.'}
+    </P>
   </main>
 );
 
