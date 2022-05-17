@@ -15,7 +15,7 @@ const UnstyledProjectCard = ({
       {heading}
     </H2>
     <ExternalLink href={link.site.href} target="_blank">
-      <FontAwesomeIcon alt="Simeon's Portfolio" icon={faExternalLink} />
+      <FontAwesomeIcon alt="Marwynn's Portfolio" icon={faExternalLink} />
       <span className="text">
         {link.site.text}
       </span>
