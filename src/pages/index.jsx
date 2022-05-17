@@ -18,10 +18,6 @@ const IndexPage = () => (
   <main>
     <ContactCard
       name="Marwynn Joynes"
-      address={{
-        street: '2611 E. Mission Ave.',
-        city: 'Spokane, WA 99202',
-      }}
       email="me@marwynn.net"
       cell="1.207.619.1880"
       linkedin="https://www.linkedin.com/in/tofieldya/"
@@ -277,6 +273,7 @@ const IndexPage = () => (
                 subItems: [
                   "Create React App",
                   "NextJS",
+                  "Gatsby",
                 ]
               },
               {
