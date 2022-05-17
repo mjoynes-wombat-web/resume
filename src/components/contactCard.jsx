@@ -12,7 +12,6 @@ import { H2, P, ExternalLink } from './textElements';
 const UnstyledContactCard = ({
   className,
   name,
-  address,
   email,
   cell,
   linkedin,
@@ -25,11 +24,6 @@ const UnstyledContactCard = ({
       {name}
     </H2>
     <section id="contactInfo">
-      <P>
-        {address.street}
-        <br />
-        {address.city}
-      </P>
       <ExternalLink href={`mailto:${email}`}>
         {email}
       </ExternalLink>
