@@ -4,7 +4,7 @@ const postCssFocus = require('postcss-focus');
 
 module.exports = {
   siteMetadata: {
-    title: 'Simeon Smith\'s Resume',
+    title: 'Marwynn Joyne\'s Resume',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
