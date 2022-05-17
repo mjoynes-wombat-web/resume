@@ -48,7 +48,7 @@ const UnstyledContactCard = ({
         <span className="url">
           {portfolio}
         </span>
-        <FontAwesomeIcon alt="Simeon's Portfolio" icon={faExternalLink} />
+        <FontAwesomeIcon alt="Marwynn's Portfolio" icon={faExternalLink} />
       </ExternalLink>
       <ExternalLink href={contact} className="no-print" target="_blank">
         <span className="url">
