@@ -12,7 +12,6 @@ import { H2, P, ExternalLink } from './textElements';
 const UnstyledContactCard = ({
   className,
   name,
-  address,
   email,
   cell,
   linkedin,
@@ -25,11 +24,6 @@ const UnstyledContactCard = ({
       {name}
     </H2>
     <section id="contactInfo">
-      <P>
-        {address.street}
-        <br />
-        {address.city}
-      </P>
       <ExternalLink href={`mailto:${email}`}>
         {email}
       </ExternalLink>
@@ -54,7 +48,7 @@ const UnstyledContactCard = ({
         <span className="url">
           {portfolio}
         </span>
-        <FontAwesomeIcon alt="Simeon's Portfolio" icon={faExternalLink} />
+        <FontAwesomeIcon alt="Marwynn's Portfolio" icon={faExternalLink} />
       </ExternalLink>
       <ExternalLink href={contact} className="no-print" target="_blank">
         <span className="url">

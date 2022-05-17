@@ -45,7 +45,7 @@ const UnstyledEduCard = ({
           {'Transcript'}
         </span>
         <span className="url">
-          {`Transcript: https://resume.simeonsmith.me${transcript}`}
+          {`Transcript: https://resume.marwynn.net${transcript}`}
         </span>
       </ExternalLink>
     )
