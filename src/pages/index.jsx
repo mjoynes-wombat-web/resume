@@ -55,36 +55,38 @@ const IndexPage = () => (
           list={
             [
               'Database Management',
-              'REST API',
+              'REST/GraphQL APIs',
               'Server Management',
             ]
         }
         />
         <ExpCard
-          heading="Print Design"
+          heading="DevOps"
           list={
             [
-              'Offset Press',
-              'Large Format',
+              'AWS',
+              'CI Pipelines',
+              'Terraform',
+            ]
+        }
+        />
+        <ExpCard
+          heading="AWS"
+          list={
+            [
+              'CloudFormation',
+              'Serverless Architecture',
+              'Load Balanced Server Architecture',
+            ]
+        }
+        />
+        <ExpCard
+          heading="Graphic Design"
+          list={
+            [
+              'Printing',
+              'Garments',
               'Digital',
-            ]
-        }
-        />
-        <ExpCard
-          heading="Garment Design"
-          list={
-            [
-              'Screen Printing',
-              'Sublimation',
-            ]
-        }
-        />
-        <ExpCard
-          heading="Other Design"
-          list={
-            [
-              'Signage',
-              'Displays',
             ]
         }
         />
@@ -95,7 +97,7 @@ const IndexPage = () => (
         {'Projects'}
       </H1>
       <ExternalLink
-        href="https://www.simeonsmith.me/my-work"
+        href="https://www.marwynn.net/my-work"
         target="_blank"
       >
         <FontAwesomeIcon alt="Portfolio" icon={faExternalLink} />
@@ -103,10 +105,32 @@ const IndexPage = () => (
           {'Portfolio'}
         </span>
         <span className="url">
-          {'Portfolio: https://www.simeonsmith.me/my-work'}
+          {'Portfolio: https://www.marwynn.net/my-work'}
         </span>
       </ExternalLink>
       <div className="grid">
+        <ProjectCard
+          heading="SumoLogic.com"
+          link={{
+            site: {
+              text: 'www.sumologic.com',
+              href: 'https://www.sumologic.com/',
+            },
+            github: [],
+          }}
+          description="Load balanced marketing site built on AWS infrastructure."
+        />
+        <ProjectCard
+          heading="EDMO.com"
+          link={{
+            site: {
+              text: 'www.edmo.com',
+              href: 'https://www.edmo.com/',
+            },
+            github: [],
+          }}
+          description="E-Commerce site built with AWS Amplify and using AWS AppSync GraphQL and Craft CMS for marketing content. Integrates with customers inventory management."
+        />
         <ProjectCard
           heading="Design Bright"
           link={{
@@ -117,27 +141,27 @@ const IndexPage = () => (
             github: [
               {
                 text: 'Site Repo',
-                href: 'https://github.com/ssmith-wombatweb/design-bright-client',
+                href: 'https://github.com/mjoynes-wombat-web/design-bright-client',
               },
               {
                 text: 'API Repo',
-                href: 'https://github.com/ssmith-wombatweb/design-bright-api',
+                href: 'https://github.com/mjoynes-wombat-web/design-bright-api',
               },
             ],
           }}
           description="An intuitive web application for creating funding campaigns for nonprofit marketing projects. The front-end uses ReactJS. Includes an authorization API, payment API, and content editor. The back-end REST API uses ExpressJS, NodeJS and MySQL."
         />
         <ProjectCard
-          heading="SimeonSmith.me"
+          heading="Marwynn.net"
           link={{
             site: {
-              text: 'www.simeonsmith.me',
-              href: 'https://www.simeonsmith.me',
+              text: 'www.marwynn.net',
+              href: 'https://www.marwynn.net',
             },
             github: [
               {
                 text: 'Site Repo',
-                href: 'https://github.com/ssmith-wombatweb/simeonsmith.me',
+                href: 'https://github.com/mjoynes-wombat-web/simeonsmith.me',
               },
             ],
           }}
@@ -163,6 +187,24 @@ const IndexPage = () => (
       </ExternalLink>
       <div className="grid">
         <WorkCard
+          heading="14Four"
+          title="Senior Developer / Team Captain"
+          dates={[
+            'Dec. 2022 - Current',
+          ]}
+          city="Spokane, WA"
+          description="Development of primarily high traffic marketing campaign sites on AWS Infrastructre. Technical mentor and advisor for both frontend and backend developers."
+        />
+        <WorkCard
+          heading="Uxiliary"
+          title="Creative/Full Stack Developer"
+          dates={[
+            'Oct. 2018 - Dec. 2020',
+          ]}
+          city="Spokane, WA"
+          description="Development of various websites from ecommerce to marketing sites."
+        />
+        <WorkCard
           heading="K-L Mfg. Co."
           title="Graphic Designer"
           dates={[
@@ -171,25 +213,6 @@ const IndexPage = () => (
           ]}
           city="Spokane, WA"
           description="Design, layout, and print of custom athletic apparel for companies like Nike, Castelli, and Terry."
-        />
-        <WorkCard
-          heading="Wombat Web Design"
-          title="Owner / Web Designer"
-          dates={[
-            'Sept. 2014 - Current',
-          ]}
-          city="Spokane, WA"
-          description="Freelance work producing websites for clients."
-        />
-        <WorkCard
-          heading="Purrfect Logos"
-          title="General Manager"
-          dates={[
-            'Jan. 2013 - Aug. 2013',
-            'May 2011 - Jan. 2013 (Previous position)',
-          ]}
-          city="Spokane Valley, WA"
-          description="Managed daily operations. Performed purchasing, bookkeeping, and collections."
         />
       </div>
     </section>
@@ -231,12 +254,13 @@ const IndexPage = () => (
                   'SASS',
                 ],
               },
-              'HTML 4 & 5',
+              'HTML',
               {
                 main: 'JavaScript',
                 subItems: [
-                  'ECMA Script 6',
+                  'Modern ECMA Script',
                   'jQuery',
+                  'TypeScript',
                 ],
               },
             ]
@@ -246,11 +270,21 @@ const IndexPage = () => (
           heading="Front End Frameworks"
           list={
             [
-              'Angular 1',
-              'Bootstrap',
-              'Foundation',
+              'Design Frameworks (Foundation, Tailwind, & etc.)',
               'PreactJS',
-              'ReactJS',
+              {
+                main: 'ReactJS',
+                subItems: [
+                  "Create React App",
+                  "NextJS",
+                ]
+              },
+              {
+                main: 'VueJS',
+                subItems: [
+                  "NuxtJS",
+                ]
+              }
             ]
         }
         />
@@ -266,12 +300,16 @@ const IndexPage = () => (
         }
         />
         <ExpCard
-          heading="Back End Frameworks"
+          heading="Back End Systems"
           list={
             [
-              'EmberJS',
               'ExpressJS',
               'Flask',
+              'Apollo GraphQL',
+              'CraftCMS',
+              'Ruby on Rails',
+              'Wordpress',
+              'StrapiCMS',
             ]
         }
         />
@@ -280,8 +318,10 @@ const IndexPage = () => (
           list={
             [
               'NodeJS',
-              'PHP 6',
-              'Python 2',
+              'PHP',
+              'Python',
+              'Ruby',
+              'GoLang',
             ]
         }
         />
@@ -293,6 +333,7 @@ const IndexPage = () => (
                 main: 'Ubuntu/Debian Linux',
                 subItems: [
                   'Apache 2',
+                  'Nginx',
                   'PM2',
                 ],
               },
@@ -311,6 +352,8 @@ const IndexPage = () => (
             [
               'MySQL',
               'SQL Lite',
+              'PostgreSQL',
+              'DynamoDB',
             ]
         }
         />
@@ -360,8 +403,8 @@ const IndexPage = () => (
     </section>
     <P className="resume-link">
       {'An updated online version of this resume can be found at '}
-      <ExternalLink href="https://resume.simeonsmith.me" display="inline">
-        {'https://resume.simeonsmith.me'}
+      <ExternalLink href="https://resume.marwynn.net" display="inline">
+        {'https://resume.marwynn.net'}
       </ExternalLink>
       {'.'}
     </P>
