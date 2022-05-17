@@ -17,17 +17,17 @@ import Transcript from '../static/docs/official-transcript.pdf';
 const IndexPage = () => (
   <main>
     <ContactCard
-      name="Simeon Smith"
+      name="Marwynn Joynes"
       address={{
         street: '2611 E. Mission Ave.',
         city: 'Spokane, WA 99202',
       }}
-      email="ssmith@wombatweb.us"
+      email="me@marwynn.net"
       cell="1.207.619.1880"
       linkedin="https://www.linkedin.com/in/tofieldya/"
-      github="https://github.com/ssmith-wombatweb"
-      portfolio="https://www.simeonsmith.me"
-      contact="https://www.simeonsmith.me/make-contact"
+      github="https://github.com/mjoynes-wombat-web"
+      portfolio="https://www.marwynn.net"
+      contact="https://www.marwynn.net/make-contact"
     />
     <H1 id="siteHeading">
       {'Who Am I?'}
