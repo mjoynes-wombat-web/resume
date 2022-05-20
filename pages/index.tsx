@@ -111,10 +111,6 @@ const Home: NextPage = () => {
             <ProjectCard
               heading="Design Bright"
               link={{
-                site: {
-                  text: 'www.designbright.org',
-                  href: 'https://www.designbright.org',
-                },
                 github: [
                   {
                     text: 'Site Repo',
@@ -199,7 +195,7 @@ const Home: NextPage = () => {
               heading="Full Sail University"
               program="Bachelors of Science in Web Design & Development"
               dates={['2014 - 2017']}
-              transcript="public/docs/official-transcript.pdf"
+              transcript="/docs/official-transcript.pdf"
               description="Graduated Valedictorian."
             />
           </div>

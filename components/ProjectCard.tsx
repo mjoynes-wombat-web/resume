@@ -14,7 +14,7 @@ export default function ProjectCard({
 }: {
   heading: string
   link: {
-    site: {
+    site?: {
       text: string
       href: string
     }
@@ -28,15 +28,17 @@ export default function ProjectCard({
   return (
     <section className={style['project-card']}>
       <h2>{heading}</h2>
-      <TextElements.ExternalLink
-        href={link.site.href}
-        target="_blank"
-        display="block"
-      >
-        <FaExternalLink alt={link.site.text} />
-        <span className="text">{link.site.text}</span>
-        <span className="url">{`Site: ${link.site.href}`}</span>
-      </TextElements.ExternalLink>
+      {link.site ? (
+        <TextElements.ExternalLink
+          href={link.site.href}
+          target="_blank"
+          display="block"
+        >
+          <FaExternalLink alt={link.site.text} />
+          <span className="text">{link.site.text}</span>
+          <span className="url">{`Site: ${link.site.href}`}</span>
+        </TextElements.ExternalLink>
+      ) : null}
       <div className={style['project-card_github-repos']}>
         {link.github.map((github) => (
           <TextElements.ExternalLink
