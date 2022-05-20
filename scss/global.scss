@@ -1,6 +1,5 @@
-$small-break: 600px;
-$medium-break: 1000px;
-$large-break: 1500px;
+@import './variables';
+@import './typography';
 
 html {
   @media print {
@@ -12,9 +11,11 @@ html {
   @media screen and (max-width: $large-break) {
     font-size: 1em;
   }
+
   @media screen and (max-width: $medium-break) {
     font-size: 0.875em;
   }
+
   @media screen and (max-width: $small-break) {
     font-size: 0.75em;
   }
@@ -37,28 +38,16 @@ body {
   }
 }
 
-h1, h2, h3 {
-  font-family: 'Neuton', serif;
-  font-weight: 300;
-  letter-spacing: 0.02rem;
-
-  &#siteHeading {
-    @media print {
-      margin-top: 0;
-    }
-  }
-}
-
 main {
   padding: 9rem 3rem 2rem 3rem;
   box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.25);
-  background: url('../static/img/funky-lines.png');
+  background: url('/img/funky-lines.png');
   position: relative;
   display: block; // Adding for IE support.
 
   @media screen and (max-width: 460px) {
     padding-top: 15rem;
-  } 
+  }
 
   @media print {
     box-shadow: none;
@@ -77,27 +66,31 @@ main {
   }
 }
 
-section, article {
+section,
+article {
   display: block; // Adding for IE support.
 }
 
 main {
   > section {
     page-break-inside: avoid;
-    &#projects, &#education {
+
+    &#projects,
+    &#education {
       > div.grid {
         > section {
           flex: 0 0 calc(50% - 1.5rem);
 
           @media screen and (max-width: $medium-break) {
-            
           }
+
           @media screen and (max-width: $small-break) {
             flex: 0 0 100%;
           }
         }
       }
     }
+
     > div.grid {
       display: flex;
       flex-wrap: wrap;
@@ -110,6 +103,7 @@ main {
           flex: 0 0 calc(50% - 1.5rem);
           margin-right: 1.5rem;
         }
+
         @media screen and (max-width: $small-break) {
           flex: 0 0 100%;
         }
@@ -118,11 +112,11 @@ main {
   }
 }
 
-a{
+a {
   svg {
     margin-right: 0.5rem;
     height: 1em;
-    vertical-align: -.125em;
+    vertical-align: -0.125em;
   }
 
   span.url {

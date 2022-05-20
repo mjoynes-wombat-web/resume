@@ -1,0 +1,17 @@
+.project-card {
+  a {
+    margin-right: 2rem;
+
+    @media print {
+      margin-right: 0;
+    }
+  }
+
+  &_github-repos {
+    display: flex;
+
+    @media print {
+      display: initial;
+    }
+  }
+}

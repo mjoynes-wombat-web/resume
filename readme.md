@@ -1,180 +1,34 @@
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# Who Am I?
+## Getting Started
 
-## Simeon Smith
+First, run the development server:
 
-2611 E. Mission  
-Spokane, WA 99202  
-ssmith@wombatweb.us  
-207.619.1880 (cell)  
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-I have been a graphic designer for a decade. I have a love for stunning visuals that make it easy to find information. The technical portions of my work have always been an attraction to me. For this reason I chose to pursue a career in web design and development. It turns out that it's a perfect fit that excites and intrigues me.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-# My Skills
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-## Web Design
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-* Desktop
-* User Experience
-* Mobile
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Web Development
+## Learn More
 
-* Database Management
-* REST API
-* Server Management
+To learn more about Next.js, take a look at the following resources:
 
-## Garment Design
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-* Screen Printing
-* Sublimation
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Print Design
+## Deploy on Vercel
 
-* Offset Press
-* Large Format
-* Digital
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## Other Design
-
-* Signage
-* Displays
-
-# Projects
-
-[Portfolio](https://www.simeonsmith.me/my-work)
-
-## Design Bright
-
-[www.designbright.org](https://www.designbright.org)
-
-Created a web application for funding campaigns for nonprofit marketing projects. Created the front-end using ReactJS. Includes an authorization API, payment API and content editor. The back-end REST API uses ExpressJS, NodeJS and MySQL.
-
-## SimeonSmith.me
-
-[www.simeonsmith.me](https://www.simeonsmith.me)
-
-My personal portfolio site. It's a static site created using Gatsby, ReactJS and NodeJS.
-
-# My Technologies
-
-## Back End Frameworks
-
-* EmberJS
-* ExpressJS
-* Flask
-
-## Back End Languages
-
-* NodeJS
-* PHP 6
-* Python 2
-
-## Code Editors
-
-* Atom
-* Notepad ++
-* Visual Studio Code
-* WebStorm
-
-## Databases
-
-* MySQL
-* SQL Lite
-
-## Development
-
-* Docker
-* Heroku
-* Vagrant
-
-## Front End Frameworks
-
-* Angular 1
-* Bootstrap
-* Foundation
-* PreactJS
-* ReactJS
-
-## Front End Languages
-
-* CSS 3
-  * SASS
-* HTML 4 & 5
-* JavaScript
-  * ECMA Script 6
-  * jQuery
-
-## Server
-
-* Ubuntu/Debian Linux
-  * Apache 2
-  * PM2
-* MS Server 2008 R2
-  * IIS7
-
-## Testing
-
-* Mocha with Chai
-
-## Version Control
-
-* Git
-  * BitBucket
-  * GitHub
-
-## Design
-
-* Illustrator
-* Photoshop
-* XD
-
-# Recent Employment History
-
-## K-L Mfg. Co.
-
-### Graphic Designer
-
-#### Aug. 2015 - Current
-#### Aug. 2013 - Nov. 2014
-
-Spokane, WA
-
-Design, layout, and print of custom athletic apparel for companies like Nike, Castelli, and Terry.
-
-## Wombat Web Design
-
-### Owner / Web Designer
-
-#### Sept. 2014 - Current
-
-Ellensburg, WA
-
-Freelance work producing websites for clients.
-
-## Purrfect Logos
-
-### General Manager
-
-#### Jan. 2013 - Aug. 2013
-#### May 2011 - Jan. 2013 (Previous position.)
-
-Spokane Valley, WA
-
-Managed daily operations. Performed purchasing, bookkeeping, and collections.
-
-# Education
-
-## Interior Distance Education of Alaska (IDEA)
-
-### High School Diploma
-
-#### 2003-2007
-
-## Full Sail University
-
-### Web Design & Development Bachelors of Science
-
-#### 2014 - 2017
-
-Graduated Valedictorian with a 3.93 GPA.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

@@ -1,0 +1,70 @@
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+
+  h2 {
+    margin: 0;
+  }
+
+  p,
+  a {
+    margin: 0.5rem 0;
+  }
+
+  a {
+    transform-origin: center;
+  }
+
+  @media print {
+    a {
+      margin: 0.25rem 0;
+    }
+  }
+
+  #social {
+    display: flex;
+    margin: 0.25rem 0;
+
+    @media print {
+      display: block;
+    }
+    a {
+      display: inline-block;
+      margin: 0 0 0 1rem;
+      transform-origin: center;
+
+      @media print {
+        display: block;
+        margin: 0.25rem 0;
+      }
+
+      svg {
+        transition: transform 0.5s;
+        transform-origin: center;
+        &:hover {
+          transform: scale(1.125);
+        }
+      }
+    }
+  }
+
+  &_url {
+    display: none;
+
+    @media print {
+      display: initial;
+      padding-right: 0.5rem;
+    }
+  }
+
+  &_no-print {
+    @media print {
+      display: none;
+    }
+  }
+}

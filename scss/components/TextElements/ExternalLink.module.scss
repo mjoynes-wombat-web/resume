@@ -1,0 +1,29 @@
+@import '../../variables';
+
+.external-link {
+  color: $royal;
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  margin: 0.875rem 0;
+  display: inline;
+  transition: color 0.5s, transform 0.5s;
+  transform-origin: left;
+
+  &_block {
+    display: block;
+  }
+
+  @media print {
+    margin: 0.5rem 0;
+    display: block;
+  }
+
+  &:hover {
+    color: $bright-royal;
+    transform: scale(1.04);
+  }
+
+  svg {
+    fill: $royal;
+  }
+}
