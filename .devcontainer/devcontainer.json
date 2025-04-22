@@ -1,0 +1,62 @@
+{
+    "name": "resume-dev-container",
+    "dockerComposeFile": ["../docker/docker-compose.yml"],
+    "service": "development",
+    "workspaceFolder": "/app/",
+    "customizations": {
+        // Configure properties specific to VS Code.
+        "vscode": {
+            // Set *default* container specific settings.json values on container create.
+            "settings": {
+                "editor.tabCompletion": "on",
+                "eslint.enable": true,
+                "eslint.nodeEnv": "23",
+                "files.insertFinalNewline": true,
+                "files.trimTrailingWhitespace": true,
+                "prettier.configPath": ".prettierrc",
+                "prettier.enable": true,
+                "editor.formatOnPaste": true,
+                "editor.formatOnSave": true,
+                "telemetry.telemetryLevel": "off",
+                "terminal.integrated.commandsToSkipShell": ["-workbench.action.terminal.paste"],
+                "terminal.integrated.defaultProfile.linux": "zsh",
+                "terminal.integrated.cwd": "/app",
+                "terminal.integrated.profiles.linux": {
+                    "zsh": {
+                        "path": "/bin/zsh"
+                    }
+                },
+                "terminal.integrated.inheritEnv": true,
+                "editor.defaultFormatter": "esbenp.prettier-vscode",
+                "eslint.format.enable": true,
+                "[javascript]": {
+                    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+                },
+                "[javascriptreact]": {
+                    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+                },
+            },
+            // Add the IDs of extensions you want installed when the container is created.
+            "extensions": [
+                "mads-hartmann.bash-ide-vscode",
+                "aaron-bond.better-comments",
+                "streetsidesoftware.code-spell-checker",
+                "jasonnutter.vscode-codeowners",
+                "mikestead.dotenv",
+                "dbaeumer.vscode-eslint",
+                "eamodio.gitlens",
+                "wix.vscode-import-cost",
+                "oderwat.indent-rainbow",
+                "christian-kohler.npm-intellisense",
+                "esbenp.prettier-vscode",
+                "syler.sass-indented",
+                "redhat.vscode-yaml"
+            ]
+        }
+    },
+    "remoteUser": "root",
+    "features": {
+        "git": "os-provided"
+    },
+    "shutdownAction": "none"
+}

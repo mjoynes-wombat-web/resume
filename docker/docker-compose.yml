@@ -1,0 +1,26 @@
+x-node: &node
+  build: &node-build
+    context: ../
+    dockerfile: ./docker/Dockerfile
+    target: build
+  container_name: build
+  volumes:
+    - ../:/app
+    - node-modules:/app/node_modules
+
+name: marwynns-resume
+services:
+  build:
+    <<: *node
+    entrypoint: ./docker/entrypoints/build.sh
+    ports:
+      - '3000:3000'
+  development:
+    <<: *node
+    build:
+      <<: *node-build
+      target: development
+    container_name: development
+    entrypoint: ./docker/entrypoints/development.sh
+volumes:
+  node-modules:
