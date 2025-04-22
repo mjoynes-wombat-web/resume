@@ -31,13 +31,13 @@ RUN echo NVM_DIR="root/.nvm" >> /root/.zshrc
 RUN echo '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm' >> /root/.zshrc
 RUN echo '[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion' >> /root/.zshrc
 
-RUN echo 'if [ -z "$SSH_AUTH_SOCK" ]; then' >> /root.zshrc
-RUN echo "RUNNING_AGENT=\"`ps -ax | grep 'ssh-agent -s' | grep -v grep | wc -l | tr -d '[:space:]'`\"" >> /root.zshrc
-RUN echo '   if [ "$RUNNING_AGENT" = "0" ]; then' >> /root.zshrc
-RUN echo '        ssh-agent -s &> $HOME/.ssh/ssh-agent' >> /root.zshrc
-RUN echo '   fi' >> /root.zshrc
-RUN echo '   eval `cat $HOME/.ssh/ssh-agent` > /dev/null' >> /root.zshrc
-RUN echo '   ssh-add 2> /dev/null' >> /root.zshrc
-RUN echo 'fi' >> /root.zshrc
+RUN echo 'if [ -z "$SSH_AUTH_SOCK" ]; then' >> /root/.zshrc
+RUN echo "RUNNING_AGENT=\"`ps -ax | grep 'ssh-agent -s' | grep -v grep | wc -l | tr -d '[:space:]'`\"" >> /root/.zshrc
+RUN echo '   if [ "$RUNNING_AGENT" = "0" ]; then' >> /root/.zshrc
+RUN echo '        ssh-agent -s &> $HOME/.ssh/ssh-agent' >> /root/.zshrc
+RUN echo '   fi' >> /root/.zshrc
+RUN echo '   eval `cat $HOME/.ssh/ssh-agent` > /dev/null' >> /root/.zshrc
+RUN echo '   ssh-add $HOME/.ssh/id_rsa 2> /dev/null' >> /root/.zshrc
+RUN echo 'fi' >> /root/.zshrc
 
 RUN npm install --include=dev
